@@ -1,0 +1,453 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("font-awesome/webfonts/fa-solid-900.eot") format("eot");
+    src: url("font-awesome/webfonts/fa-solid-900.eot") format("eot"), 
+         url("font-awesome/webfonts/fa-solid-900.woff2") format("woff2"),
+         url("font-awesome/webfonts/fa-solid-900.woff") format("woff"), 
+         url("font-awesome/webfonts/fa-solid-900.ttf") format("truetype"), 
+         url("font-awesome/webfonts/fa-solid-900.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 1518px;
+    height: 932px;
+    margin: 0px;
+    background-color: #3a4965;
+}
+
+.cover {
+    width: 1468px;
+    height: 862px;
+    margin: 0px;
+    background-color: #3a4965;
+    background: cover;
+}
+
+.pricing-table-page {
+    width: 1464px;
+    height: 900px;
+    background-color: white;
+    margin-top: 24px;
+    margin-left: 23px;
+    margin-right: 31px;
+    margin-bottom: 33px;
+}
+
+.header-pricing-plan {
+    width: 1464px;
+    height: 198px;
+    display: inline-flex;
+}
+
+.choose-plan {
+    width: 406px;
+    height: 198px;
+    margin: 0px;
+    display: inline-flex;
+}
+
+.choose-plan-text {
+    width: 190px;
+    height: 19px;
+    font-size: 18pt;
+    font-family: 'Arimo', bold, sans-serif;
+    font-weight: 700;
+    text-indent: smooth;
+    color: #555555;
+    display: flex; 
+    flex-direction: column;
+    margin-top: 58px;
+    margin-left: 112px;
+    
+}
+
+.cpt-span  {
+    width: 290px;
+    height: 29px;
+    font-size: 29pt;
+    font-family: 'Arimo', bold, sans-serif;
+    font-weight: 700;
+    color: #555555;
+    display: inline-flex; 
+    margin-left: -25%
+}
+
+.plan-standart {
+    width: 355.5px;
+    height: 198px;
+    margin: 0px;
+}
+
+.standart {
+    width: 360px;
+    height: 89px;
+    background-color: #89c331;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    text-indent: smooth;
+}
+
+.st {
+    width: 168px;
+    height: 24px;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    text-indent: smooth;
+    font-size: 24pt;
+    margin-top: 26px;
+    margin-bottom: 38px;
+    margin-left: 98px;
+    margin-right: 91px;
+}
+
+.st-u {
+    width: 168px;
+    height: 24px;
+    color: white;
+    font-family: 'Arimo', bold, sans-serif;
+    font-weight: 700;
+    text-indent: smooth;
+    font-size: 30pt;
+    margin-top: 24px;
+    margin-bottom: 26px;
+    margin-left: 84px;
+    margin-right: 84px;
+}
+
+.plan-price {
+    height: 109px;
+    width: 360px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    left: 50%;
+    right: 50%;
+    vertical-align: middle;
+    border-left: 1.75px solid #8888889a;
+}
+
+.price {
+    width: 125px;
+    height: 109px;
+    font-family: 'Arimo', sans-serif;
+    color: #848484;
+    font-weight: 700;
+    text-indent: smooth;
+    font-size: 60pt;
+    color: rgba(72, 72, 72, 255);
+    text-align: left;
+    margin: 0px;
+    display: inline-table;
+    padding-left: 42px;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+
+.price-part2 {
+    display: inline-table;
+    width: 192px;
+    height: 109px;
+    vertical-align: center;
+    text-align: left;
+    align-items: center;
+    padding-top: 8px;
+    padding-left: 7px;
+}
+
+.price2 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    color: #848484;
+    font-size: 24pt;
+    color: rgba(72, 72, 72, 255);
+    text-align: center;
+    margin: 0px;
+    display: table;
+    padding-top: 10px;
+}
+
+.per-month {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    text-indent: smooth;
+    color: #848484;
+    color: #696969;
+    font-weight: 300;
+    font-size: 18pt;
+    text-align: center;
+    margin: 0px;
+    display: table;
+}
+
+.plan-ultimate {
+    width: 357px;
+    height: 198px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.ultimate {
+    width: 360px;
+    height: 89px;
+    background-color: #f04a56;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    text-indent: smooth;
+    font-size: 30pt;
+    top: 50%;
+    left: 50%;
+    margin: 0px;
+    display: table;
+}
+
+.plan-premium {
+    width: 356px;
+    height: 198px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.premium {
+    width: 356px;
+    height: 89px;
+    background-color: #20807c;
+    color: white;
+    font-family: 'Arimo' bold;
+    color: #848484;
+    font-weight: 700;
+    text-indent: smooth;
+    font-size: 30pt;
+    top: 50%;
+    left: 50%;
+    margin: 0px;
+    display: table;
+}
+
+.pricing-plan-type {
+    width: 396px;
+    height: 89px;
+    font-family: 'Arimo', sans-serif;
+    color: #848484;
+    font-weight: 700;
+    text-indent: smooth;
+    font-size: 16pt;
+    color: rgba(72, 72, 72, 255);
+    text-align: center;
+    border-left: none;
+}
+
+.fas {
+    width: 30px;
+    height: 27px;
+    font-family: 'FontAwesome';
+    padding-right: 25px;
+    text-align: center;
+    color: rgba(132, 132, 132, 255);
+    font-size: 1.5em;
+}
+
+.filing-page {
+    width: 352px;
+    height: 89px;
+    font-family: 'Arimo', bold, sans-serif;
+    color: #848484;
+    font-weight: 600;
+    text-indent: smooth;
+    font-size: 16pt;
+    color: rgba(72, 72, 72, 255);
+    text-align: center;
+    border-left: 1.5px solid #9797977a;
+    border-right: 0.75px solid #b8b8b886;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-collapse: separate; 
+    
+}
+
+.tbody {
+    border: 0px;
+    font-family: 'Arimo';
+    font-weight: 700;
+    color: #848484;
+    text-indent: smooth;
+}
+
+table {
+    border: 0px;
+    border-spacing: 0px;
+}
+
+.bg-grey {
+    background-color: #e3e3e3; 
+    text-align: center;
+    color: #848484;
+}
+
+.bg-light {
+    background-color: #f2f2f2;
+    color: #848484;
+}
+
+.buttons {
+    width: 358px;
+    height: 158px;
+}
+
+.bt-contact-us-menu {
+    padding-left: 75px;
+    padding-right: 75px;
+    background: #dddddd;
+}
+
+.bt-contact-us {
+    padding-left: 55px;
+    padding-right: 55px;
+    border-left: 0.75px solid #8888889a;
+    border-right: 1.5px solid #a8a8a886;
+}
+
+.btn-grey {
+    width: 244px;
+    height: 63px;
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    text-indent: smooth;
+    background: #484848;
+    -moz-border-radius: 2px;
+    border-radius: 5px;
+    border: 0px;
+    border-left: 0.75px solid #8888889a;
+    border-right: 1.5px solid #a8a8a886;
+    outline: none;
+}
+
+.btn-grey:hover {
+    width: 244px;
+    height: 63px;
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    text-indent: smooth;
+    background: #424242;
+    -moz-border-radius: 2px;
+    border-radius: 5px;
+    border: 0px;
+    outline: none;
+}
+
+.btn-grean {
+    width: 244px;
+    height: 63px;
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+    font-family: 'Arimo', bold, sans-serif;
+    font-weight: 700;
+    text-indent: smooth;
+    background: #89c331;
+    -moz-border-radius: 2px;
+    border-radius: 5px;
+    border: 0px;
+    outline: none;
+}
+
+.btn-grean:hover {
+    width: 244px;
+    height: 63px;
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+    font-family: 'Arimo', bold, sans-serif;
+    font-weight: 700;
+    text-indent: smooth;
+    background:  #75a72a;
+    -moz-border-radius: 2px;
+    border-radius: 5px;
+    border: 0px;
+    outline: none;
+}
+
+.btn-red {
+    width: 244px;
+    height: 63px;
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+    font-family: 'Arimo', bold, sans-serif;
+    font-weight: 700;
+    text-indent: smooth;
+    background: #f04a56;
+    -moz-border-radius: 2px;
+    border-radius: 5px;
+    border: 0px;
+    outline: none;
+}
+
+.btn-red:hover {
+    width: 244px;
+    height: 63px;
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+    font-family: 'Arimo', bold, sans-serif;
+    font-weight: 700;
+    text-indent: smooth;
+    background: #ee3a46;
+    -moz-border-radius: 2px;
+    border-radius: 5px;
+    border: 0px;
+    outline: none;
+}
+
+.btn-blue {
+    width: 244px;
+    height: 63px;
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+    font-family: 'Arimo', bold, sans-serif;
+    font-weight: 700;
+    text-indent: smooth;
+    background: #20807c;
+    -moz-border-radius: 2px;
+    border-radius: 5px;
+    border: 0px;
+    background-image: -moz-linear-gradient(top, #20807c 85%, bottom #16736f 15%); 
+    outline: none;
+}
+
+.btn-blue:hover {
+    width: 244px;
+    height: 63px;
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+    font-family: 'Arimo', bold, sans-serif;
+    font-weight: 700;
+    text-indent: smooth;
+    background: #1b726f;
+    -moz-border-radius: 2px;
+    border-radius: 5px;
+    border: 0px;
+    outline: none;
+    transition: 0.2s;
